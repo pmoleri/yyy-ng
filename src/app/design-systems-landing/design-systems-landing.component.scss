@@ -1,0 +1,188 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.design-systems-landing {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 180px;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+}
+.row-layout {
+  display: flex;
+}
+.menu {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 85.7%;
+  height: 5.5%;
+  min-width: 1080px;
+  min-height: 56px;
+}
+.details {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 49.7%;
+  height: 41.7%;
+  min-width: 626px;
+  min-height: 427px;
+}
+.features {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 85.7%;
+  height: 23%;
+  min-width: 1080px;
+  min-height: 236px;
+}
+.group {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 280px;
+  height: 236px;
+  min-width: min-content;
+}
+.rectangle {
+  background-color: hsla(var(--ig-gray-300));
+  position: relative;
+  width: calc(78% - 840px);
+  height: 100%;
+  min-width: 2px;
+  min-height: 236px;
+}
+.oval {
+  right: 180px;
+  top: calc(35% - 148px);
+  position: absolute;
+  width: 426px;
+  height: 426px;
+}
+.button {
+  color: #000000FF;
+  position: relative;
+  width: 96px;
+  height: max-content;
+  min-width: min-content;
+}
+.buttonflatenabled-copy {
+  color: #000000FF;
+  position: relative;
+  margin: 0 0 0 40px;
+  width: 152px;
+  height: max-content;
+  min-width: min-content;
+}
+.buttonflatenabled-copy-2 {
+  color: #000000FF;
+  position: relative;
+  margin: 0 0 0 40px;
+  width: 80px;
+  height: max-content;
+  min-width: min-content;
+}
+.buttonflatenabled-copy-3 {
+  color: #000000FF;
+  position: relative;
+  margin: 0 0 0 40px;
+  width: 72px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  color: #FFFFFFFF;
+  background-color: hsla(var(--ig-primary-500));
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  position: relative;
+  width: 57.5%;
+  height: max-content;
+}
+.introducing-a-new-de {
+  color: #E41C77FF;
+  position: relative;
+  width: 212px;
+  height: max-content;
+}
+.build-beautiful-prod {
+  color: #000000DE;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 626px;
+}
+.professional-design {
+  color: #000000DE;
+  position: relative;
+  width: 586px;
+  height: max-content;
+}
+.avatar {
+  color: hsla(var(--ig-gray-900));
+  background-color: hsla(var(--ig-primary-300));
+  --background: none;
+  --ig-gray-400: transparent;
+  position: relative;
+}
+.design-guidelines {
+  color: #000000DE;
+  position: relative;
+  width: 155px;
+  height: max-content;
+}
+.we-created-design-gu {
+  color: #000000DE;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 280px;
+}
+.avatar_1 {
+  color: hsla(var(--ig-gray-900));
+  --background: none;
+  --ig-gray-400: transparent;
+  position: relative;
+}
+.ui-components {
+  color: #000000DE;
+  position: relative;
+  width: 133px;
+  height: max-content;
+}
+.avatar_2 {
+  color: hsla(var(--ig-gray-900));
+  background-color: hsla(var(--ig-secondary-300));
+  --background: none;
+  --ig-gray-400: transparent;
+  position: relative;
+}
+.tips-for-developers {
+  color: #000000DE;
+  position: relative;
+  width: 168px;
+  height: max-content;
+}
